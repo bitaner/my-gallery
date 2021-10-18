@@ -14,7 +14,7 @@ var gProjs = [
         desc: "classic 90' game, highly addictive",
         url: "projs/sokoban", /// what to do
         publishedAt: 1448693940000, /// what to do
-        labels: ["Matrixes", "keyboard events"],
+        labels: ["Matrix", "keyboard events"],
     },
     {
         id: "pac-man",
@@ -23,7 +23,7 @@ var gProjs = [
         desc: "classic 90' game, highly addictive",
         url: "projs/sokoban", /// what to do
         publishedAt: 1448693940000, /// what to do
-        labels: ["Matrixes", "keyboard events"],
+        labels: ["Matrix", "keyboard events"],
     },
     {
         id: "guess-me",
@@ -32,7 +32,7 @@ var gProjs = [
         desc: "A-I is scary huh?",
         url: "projs/sokoban", /// what to do
         publishedAt: 1448693940000, /// what to do
-        labels: ["Matrixes", "keyboard events"], // dont know
+        labels: ["Matrix", "keyboard events"], // dont know
     },
 ]
 
