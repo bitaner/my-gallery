@@ -5,14 +5,13 @@ const KEY = 'projs'
 const PAGE_SIZE = 4
 
 
-
 var gProjs = [
     {
         id: "mine-sweeper", // class
         name: "mine sweeper",
         title: "clear those mines!",
         desc: "classic 90' game, highly addictive",
-        url: "projs/sokoban", /// what to do
+        url: "https://bitaner.github.io/minesweeper2", /// what to do
         publishedAt: 1448693940000, /// what to do
         labels: ["Matrix", "keyboard events"],
     },
@@ -21,7 +20,7 @@ var gProjs = [
         name: "pac man",
         title: "stack up points, dodge those ghosts",
         desc: "classic 90' game, highly addictive",
-        url: "projs/sokoban", /// what to do
+        url: "https://www.google.com/", /// what to do
         publishedAt: 1448693940000, /// what to do
         labels: ["Matrix", "keyboard events"],
     },
@@ -30,12 +29,11 @@ var gProjs = [
         name: "guess me",
         title: "think of a person, and our furtune teller will know who",
         desc: "A-I is scary huh?",
-        url: "projs/sokoban", /// what to do
+        url: "https://www.google.com/", /// what to do
         publishedAt: 1448693940000, /// what to do
-        labels: ["Matrix", "keyboard events"], // dont know
+        labels: ["MACHINE LEARNING", "AI"], // dont know
     },
 ]
-
 
 
 var gSortBy
@@ -56,5 +54,3 @@ function getProjById(projId) {
     })
     return proj
 }
-
-
